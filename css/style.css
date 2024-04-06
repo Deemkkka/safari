@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F1E1E;
+}
+
+a{
+    text-decoration: none; /*убрали подчеркивание у ссылок*/
+    color: inherit; /*ссылки были синими, теперь стали черными. Потому как наследуется от родителя body*/
+}
+
+.container{
+    max-width: 1140px; /*нужно 1120, но padding съел 20px, поэтому увеличиваем на 20*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.header{
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.header__inner{
+    min-height: 100vh; /*относится к header background-image, для того, чтобы картинка была растянута на весь экран пользователя*/
+}
+
+
+
+
+
+.header__title{
+    font-family: "PT Serif", serif;
+}
+
+
+
+
+
+/*1 1:30*/
