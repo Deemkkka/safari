@@ -301,4 +301,29 @@ a {
   right: 60px;
 }
 
-/*2 2:41*/
+.tour{
+  padding: 100px 0;
+}
+
+.tour__title{
+  margin-bottom: 77px;
+}
+
+.tour__box{
+  column-count: 2;
+  column-gap: 46px;
+  border-bottom: 1px solid #d9d9de;
+  padding-bottom: 50px;
+  margin-bottom: 44px;
+}
+
+.tour__text{
+  margin-bottom: 15px;
+}
+
+.tour__text span{
+  font-weight: 700;
+}
+
+
+/*3 0:24*/
